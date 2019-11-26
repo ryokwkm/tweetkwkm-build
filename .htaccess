@@ -1,3 +1,5 @@
 RewriteEngine on
-RewriteCond $1 !^(index\.php|public|build|static|images|css|img|js|capp|robots\.txt|sitemap.xml|google90566ace2332a498.html)
+RewriteCond $1 !^(index\.php|git\.php|public|build|static|robots\.txt|sitemap.xml|google90566ace2332a498.html)
 RewriteRule ^(.*)$ /build/index.html?/$1 [L]
+
+# images|css|img|js|capp|
