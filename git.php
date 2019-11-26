@@ -19,7 +19,7 @@ if (!function_exists('getallheaders')) {
 // $header = getallheaders();
 // if ( isset($header['X-Hub-Signature']) ) {
   echo exec('git pull');
-  echo "ok";
+  echo "ok desu";
 // }  else {
 //   echo "non";
 // }
